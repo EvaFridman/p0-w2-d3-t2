@@ -15,8 +15,10 @@ main {
 }
 
 header {
+    background-color: rgb(124, 218, 187);
     position: sticky;
     top: 0;
+    z-index: 10;
 }
 
 article {
