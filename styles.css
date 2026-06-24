@@ -1,0 +1,37 @@
+* { box-sizing: border-box; }
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: auto 1fr auto;
+    gap: 20px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+article {
+    border: 2px solid green;
+    padding: 4px;
+}
+
+button {
+    position: relative;
+    width: 150px;
+    height: 100px;
+}
+
+.heart {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+}
